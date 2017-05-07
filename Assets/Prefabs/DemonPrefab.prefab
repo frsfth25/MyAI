@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114154035794573220}
   - component: {fileID: 50726587582317504}
   - component: {fileID: 61622188856019142}
+  - component: {fileID: 95276062618831852}
   m_Layer: 0
   m_Name: DemonPrefab
   m_TagString: Untagged
@@ -77,6 +78,23 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
+--- !u!95 &95276062618831852
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1845315905928182}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2edebe95de6f98b4a86641e7e23752d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114154035794573220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,7 +138,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 106ed21b73e552045b55f1726d65b3b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c286846930220d49b57ecb3a306d54e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
